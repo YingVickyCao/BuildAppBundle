@@ -1,0 +1,5 @@
+include ':java-library'
+include ':kotlin-library'
+include ':android-library'
+include ':app'
+rootProject.name = "BuildAppBundle-After"
