@@ -1,9 +1,5 @@
+include ':java-library'
 include ':kotlin-library'
-include ':javaLib'
 include ':android-library'
-include ':dynamicfeature4'
-include ':dynamicfeature3'
-include ':dynamicfeature2'
-include ':dynamicfeature1'
 include ':app'
 rootProject.name = "BuildAppBundle"

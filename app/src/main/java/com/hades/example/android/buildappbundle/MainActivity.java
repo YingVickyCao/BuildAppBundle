@@ -1,13 +1,13 @@
 package com.hades.example.android.buildappbundle;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.hades.example.android.android_library.AndroidBean;
-import com.hades.example.android.javalib.JavaBean;
+import com.hades.example.android.java_library.JavaBean;
 
 public class MainActivity extends AppCompatActivity {
     TextView textView1;
@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
 
         textView1.setText(new JavaBean().getDesc());
         textView2.setText(new AndroidBean().getDesc());
-
         imageView1.setImageResource(R.drawable.round_add_alert_black_24);
     }
 }

@@ -18,7 +18,8 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
+            shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -26,11 +27,11 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    dynamicFeatures = [':dynamicfeature1', ':dynamicfeature2', ':dynamicfeature3', ':dynamicfeature4']
+    dynamicFeatures = []
 }
 
 dependencies {
-    implementation project(":javaLib")
+    implementation project(":java-library")
     implementation project(":android-library")
     implementation project(":kotlin-library")
 
