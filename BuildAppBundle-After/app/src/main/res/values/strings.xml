@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">BuildAppBundle</string>
-    <string name="title_dynamicfeature1">dynamicfeature1</string>
-    <string name="title_dynamicfeature2">dynamicfeature2</string>
-    <string name="title_dynamicfeature3">dynamicfeature3</string>
-    <string name="title_dynamicfeature4">dynamicfeature4</string>
-</resources>
